@@ -28,3 +28,37 @@
   </p>
 
 ---
+
+### First, install the SDK
+```bash
+# Install the official Scrapeless SDK
+npm install @scrapeless-ai/sdk
+```
+
+### Click [here](https://app.scrapeless.com/passport/register?utm_source=official&utm_term=githubopen) to obtain your API-KEY
+
+---
+
+---
+
+## 📄 License
+
+This project is licensed under the Apache License - see the [LICENSE](LICENSE) file for details.
+
+## 📞 Support
+
+- 📖 **Documentation**: [https://docs.scrapeless.com](https://docs.scrapeless.com?utm_source=official&utm_term=githubopen)
+- 💬 **Community**: [Join our Discord](https://backend.scrapeless.com/app/api/v1/public/links/discord)
+- 🐛 **Issues**: [GitHub Issues](https://github.com/scrapelesshq/LLM-chat-scraper/issues)
+- 📧 **Email**: [business@scrapeless.com](mailto:business@scrapeless.com)
+
+## 🏢 About Scrapeless
+
+Scrapeless is a powerful web scraping and browser automation platform that helps businesses extract data from any website at scale. Our platform provides:
+
+- High-performance web scraping infrastructure
+- Global proxy network
+- Browser automation capabilities
+- Enterprise-grade reliability and support
+
+Visit [scrapeless.com](?utm_source=official&utm_term=githubopen) to learn more and get started.
