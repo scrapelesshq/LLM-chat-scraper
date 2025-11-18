@@ -48,7 +48,6 @@ cd LLM-chat-scraper/chatgpt_scraper
 npm install
 cp .env.example .env
 # edit .env and add at least SCRAPELESS_API_KEY=your_api_key_here
-npx ts-node src/chatgpt.ts
 ```
 
 ---
