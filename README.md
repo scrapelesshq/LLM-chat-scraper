@@ -49,7 +49,7 @@ npm install
 cp .env.example .env
 # edit .env and add at least SCRAPELESS_API_KEY=your_api_key_here
 ```
-Important: after configuring .env, you will likely need to edit ``src/chatgpt.ts`` to replace placeholder values.
+Important: after configuring ``.env``, you need to edit ``src/chatgpt.ts`` to replace placeholder values.
 
 ---
 
