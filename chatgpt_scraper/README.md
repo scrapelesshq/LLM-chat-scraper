@@ -12,3 +12,6 @@ Copy the example environment file:
 
 Then edit `.env` and add:
 `SCRAPELESS_API_KEY=your_api_key_here`
+
+## Important
+After configuring ``.env``, you need to edit ``src/chatgpt.ts`` to replace placeholder values.
