@@ -1,11 +1,18 @@
-# chatgpt_scraper
+# ChatGPT Scraper (LLM-chat-scraper)
 
-Minimal runner that invokes the exported ChatgptService.solver from `src/chatgpt.ts`.
+Scraper for collecting structured conversation data from **ChatGPT** using the official **Scrapeless Cloud Browser SDK**.
 
-## Setup
+## Installation
+Install the Scrapeless SDK:
+`npm install @scrapeless-ai/sdk`
 
-1. Copy `.env.example` to `.env` and fill your values.
-2. Install dependencies:
-   ```bash
-   cd chatgpt_scraper
-   npm install
+## Configuration
+Copy the example environment file:
+`cp .env.example .env`
+
+Then edit `.env` and add:
+`SCRAPELESS_API_KEY=your_api_key_here`
+
+## Run (local)
+Run the scraper:
+`npx ts-node src/chatgpt.ts`
