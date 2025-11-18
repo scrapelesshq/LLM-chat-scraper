@@ -12,7 +12,3 @@ Copy the example environment file:
 
 Then edit `.env` and add:
 `SCRAPELESS_API_KEY=your_api_key_here`
-
-## Run (local)
-Run the scraper:
-`npx ts-node src/chatgpt.ts`
