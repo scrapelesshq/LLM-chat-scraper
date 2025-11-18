@@ -55,7 +55,7 @@ Important: after configuring ``.env``, you need to edit ``src/chatgpt.ts`` to re
 | Field        | Description                                         |
 |--------------|-----------------------------------------------------|
 | `task_id`    | A unique identifier for this scraping task         |
-| `proxy_url`  | [Your Proxy URL](https://docs.scrapeless.com/en/proxies/quickstart/introduction/)|
+| `proxy_url`  | [Your Proxy URL](https://docs.scrapeless.com/en/proxies/quickstart/introduction?utm_source=official&utm_term=githubopen)|
 | `prompt`     | The message or query you want ChatGPT to respond to |
 | `webhook`    | Optional webhook URL to send results               |
 | `web_search` | Enable web search functionality (`true`/`false`)  |
