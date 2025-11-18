@@ -49,7 +49,18 @@ npm install
 cp .env.example .env
 # edit .env and add at least SCRAPELESS_API_KEY=your_api_key_here
 ```
-Important: after configuring ``.env``, you need to edit ``src/chatgpt.ts`` to replace placeholder values.
+
+Important: after configuring ``.env``, you need to edit ``src/chatgpt.ts`` to replace placeholder values:
+
+| Field        | Description                                         |
+|--------------|-----------------------------------------------------|
+| `task_id`    | A unique identifier for this scraping task         |
+| `proxy_url`  | [Your Proxy URL](https://docs.scrapeless.com/en/proxies/quickstart/introduction/)|
+| `prompt`     | The message or query you want ChatGPT to respond to |
+| `webhook`    | Optional webhook URL to send results               |
+| `web_search` | Enable web search functionality (`true`/`false`)  |
+| `timeout`    | Maximum wait time for responses in milliseconds |
+| `session_name` | Optional name for the browser session           |
 
 ---
 
