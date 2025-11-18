@@ -39,7 +39,7 @@ npm install @scrapeless-ai/sdk
 
 ---
 
-## To scrape ChatGPT
+## ChatGPT Scraper
 You can use the ChatGPT scraper contained in this repository to collect structured conversation data. Clone or browse the scraper at: https://github.com/scrapelesshq/LLM-chat-scraper/tree/main/chatgpt_scraper and follow these quick steps to run it locally:
 
 ```bash
@@ -49,6 +49,7 @@ npm install
 cp .env.example .env
 # edit .env and add at least SCRAPELESS_API_KEY=your_api_key_here
 ```
+Important: after configuring .env, you will likely need to edit ``src/chatgpt.ts`` to replace placeholder values.
 
 ---
 
