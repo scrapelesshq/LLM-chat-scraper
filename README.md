@@ -64,6 +64,28 @@ Important: after configuring ``.env``, you need to edit ``src/chatgpt.ts`` to re
 
 ---
 
+## Perplexity Scraper
+You can use the Perplexity scraper contained in this repository to collect structured conversation data. Clone or browse the scraper at: https://github.com/scrapelesshq/LLM-chat-scraper/tree/main/perplexity_scraper and follow these quick steps to run it locally:
+
+```bash
+git clone https://github.com/scrapelesshq/LLM-chat-scraper.git
+cd LLM-chat-scraper/perplexity_scraper
+npm install
+cp .env.example .env
+# edit .env and add at least SCRAPELESS_API_KEY=your_api_key_here
+```
+
+Important: after configuring ``.env``, you need to edit ``src/perplexity.ts`` to replace placeholder values:
+
+| Field            | Description                                                     |
+|------------------|-----------------------------------------------------------------|
+| `proxyCountry`   | Country for proxy routing (e.g., `"ANY"`, `"US"`, `"BR"` etc.)  |
+| `sessionName`    | Name of the browser session (e.g., `"perplexity-scraper"`)      |
+| `prompt`         | Your Perplexity query or instruction                             |
+| `timeout`        | Maximum wait time for the response in milliseconds               |
+
+---
+
 ## 📄 License
 
 This project is licensed under the Apache License - see the [LICENSE](LICENSE) file for details.
