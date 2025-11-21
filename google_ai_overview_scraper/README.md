@@ -16,6 +16,6 @@ After configuring `.env`, you need to edit `src/ai_overview.ts` to replace place
 | Field            | Description                                                     |
 |------------------|-----------------------------------------------------------------|
 | `proxyCountry`   | Country for proxy routing (e.g., `"ANY"`, `"US"`, `"BR"` etc.)  |
-| `sessionName`    | Name of the browser session (e.g., `"googleai-overview-scraper"`) |
+| `sessionName`    | Name of the browser session (e.g., `"google-ai-overview-scraper"`) |
 | `prompt`         | Your Google AI Overview query or instruction                    |
 | `timeout`        | Maximum wait time for the response in milliseconds              |
