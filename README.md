@@ -124,7 +124,29 @@ Important: after configuring ``.env``, you need to edit ``src/ai_overview.ts`` t
 | Field            | Description                                                     |
 |------------------|-----------------------------------------------------------------|
 | `proxyCountry`   | Country for proxy routing (e.g., `"ANY"`, `"US"`, `"BR"` etc.)  |
-| `sessionName`    | Name of the browser session (e.g., `"ai-overview-scraper"`)      |
+| `sessionName`    | Name of the browser session (e.g., `"google-ai-overview-scraper"`)      |
+| `prompt`         | Your Perplexity query or instruction                             |
+| `timeout`        | Maximum wait time for the response in milliseconds               |
+
+---
+
+## Google AI Mode Scraper
+You can use the Google AI Mode Scraper contained in this repository to collect structured conversation data. Clone or browse the scraper at: https://github.com/scrapelesshq/LLM-chat-scraper/tree/main/google_ai_mode_scraper and follow these quick steps to run it locally:
+
+```bash
+git clone https://github.com/scrapelesshq/LLM-chat-scraper.git
+cd LLM-chat-scraper/google_ai_mode_scraper
+npm install
+cp .env.example .env
+# edit .env and add at least SCRAPELESS_API_KEY=your_api_key_here
+```
+
+Important: after configuring ``.env``, you need to edit ``src/ai_mode.ts`` to replace placeholder values:
+
+| Field            | Description                                                     |
+|------------------|-----------------------------------------------------------------|
+| `proxyCountry`   | Country for proxy routing (e.g., `"ANY"`, `"US"`, `"BR"` etc.)  |
+| `sessionName`    | Name of the browser session (e.g., `"google-ai-mode-scraper"`)      |
 | `prompt`         | Your Perplexity query or instruction                             |
 | `timeout`        | Maximum wait time for the response in milliseconds               |
 
