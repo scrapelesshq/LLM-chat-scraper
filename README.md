@@ -102,7 +102,7 @@ Important: after configuring ``.env``, you need to edit ``src/gemini.ts`` to rep
 | Field            | Description                                                     |
 |------------------|-----------------------------------------------------------------|
 | `proxyCountry`   | Country for proxy routing (e.g., `"ANY"`, `"US"`, `"BR"` etc.)  |
-| `sessionName`    | Name of the browser session (e.g., `"perplexity-scraper"`)      |
+| `sessionName`    | Name of the browser session (e.g., `"gemini-scraper"`)      |
 | `prompt`         | Your Perplexity query or instruction                             |
 | `timeout`        | Maximum wait time for the response in milliseconds               |
 
@@ -124,7 +124,7 @@ Important: after configuring ``.env``, you need to edit ``src/ai_overview.ts`` t
 | Field            | Description                                                     |
 |------------------|-----------------------------------------------------------------|
 | `proxyCountry`   | Country for proxy routing (e.g., `"ANY"`, `"US"`, `"BR"` etc.)  |
-| `sessionName`    | Name of the browser session (e.g., `"google_ai_overview_scraper"`)      |
+| `sessionName`    | Name of the browser session (e.g., `"ai-overview-scraper"`)      |
 | `prompt`         | Your Perplexity query or instruction                             |
 | `timeout`        | Maximum wait time for the response in milliseconds               |
 
