@@ -16,6 +16,6 @@ After configuring `.env`, you need to edit `src/gemini.ts` to replace placeholde
 | Field            | Description                                                     |
 |------------------|-----------------------------------------------------------------|
 | `proxyCountry`   | Country for proxy routing (e.g., `"ANY"`, `"US"`, `"BR"` etc.)  |
-| `sessionName`    | Name of the browser session (e.g., `"perplexity-scraper"`)      |
+| `sessionName`    | Name of the browser session (e.g., `"gemini-scraper"`)      |
 | `prompt`         | Your Perplexity query or instruction                             |
 | `timeout`        | Maximum wait time for the response in milliseconds               |
