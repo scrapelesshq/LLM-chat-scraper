@@ -153,7 +153,7 @@ Important: after configuring ``.env``, you need to edit ``src/ai_mode.ts`` to re
 ---
 
 ## Grok Scraper
-You can use the Grok Scraper contained in this repository to collect structured conversation data. Clone or browse the scraper at: https://github.com/scrapelesshq/LLM-chat-scraper/tree/main/gemini_scraper and follow these quick steps to run it locally:
+You can use the Grok Scraper contained in this repository to collect structured conversation data. Clone or browse the scraper at: https://github.com/scrapelesshq/LLM-chat-scraper/tree/main/grok_scraper and follow these quick steps to run it locally:
 
 ```bash
 git clone https://github.com/scrapelesshq/LLM-chat-scraper.git
