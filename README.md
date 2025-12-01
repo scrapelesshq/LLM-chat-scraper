@@ -152,6 +152,29 @@ Important: after configuring ``.env``, you need to edit ``src/ai_mode.ts`` to re
 
 ---
 
+## Grok Scraper
+You can use the Grok Scraper contained in this repository to collect structured conversation data. Clone or browse the scraper at: https://github.com/scrapelesshq/LLM-chat-scraper/tree/main/gemini_scraper and follow these quick steps to run it locally:
+
+```bash
+git clone https://github.com/scrapelesshq/LLM-chat-scraper.git
+cd LLM-chat-scraper/grok_scraper
+npm install
+cp .env.example .env
+# edit .env and add at least SCRAPELESS_API_KEY=your_api_key_here
+```
+
+Important: after configuring `.env`, you need to edit src/grok.ts to replace placeholder values:
+
+| Field            | Description                                                     |
+|------------------|-----------------------------------------------------------------|
+| `sessionTTL`      | Scrapeless browser session duration in seconds                  |
+| `sessionRecording`| Enable session recording (`true`/`false`)                       |
+| `sessionName`     | Name of the browser session                                      |
+| `proxyCountry`    | Country for proxy routing (e.g., "US", "BR")                   |
+| `prompt`          | The message or query you want Grok to respond to                |
+
+---
+
 ## 📄 License
 
 This project is licensed under the Apache License - see the [LICENSE](LICENSE) file for details.
